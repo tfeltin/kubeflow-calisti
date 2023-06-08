@@ -1,4 +1,4 @@
-# Kubeflow Helm chart compatible with Cisco Calisti service Mesh
+# Kubeflow x Cisco Calisti service mesh
 
 This repository provides a Helm chart definition for a Kubeflow base installation on top of the Cisco Calisti service mesh, for a generic Kubernetes cluster.
 
