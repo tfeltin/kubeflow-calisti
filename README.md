@@ -8,8 +8,7 @@ This repository provides a Helm chart definition for a Kubeflow base installatio
 Prior to the Kubeflow deployment, you will need to install the following:
 - the Helm package manager (https://helm.sh/)
 - the Calisti service mesh (https://www.calisti.app/)
-
-## Installation
+## Installation
 
 After having deployed the Cisco Calisti service mesh, deploy the Kubeflow application by simply running
 ```
