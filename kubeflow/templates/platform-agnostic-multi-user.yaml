@@ -3530,18 +3530,18 @@ spec:
   rules:
   - from:
     - source:
+        namespaces:
+        - istio-system
+        - kubeflow
+        - kubeflow-user-example
+  - from:
+    - source:
         principals:
         - cluster.local/ns/kubeflow/sa/ml-pipeline
   - from:
     - source:
         principals:
         - cluster.local/ns/kubeflow/sa/ml-pipeline-ui
-  - from:
-    - source:
-      namespaces:
-      - istio-system
-      - kubeflow
-      - kubeflow-user-example
   - {}
   selector:
     matchLabels:
