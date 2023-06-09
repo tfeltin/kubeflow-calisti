@@ -3560,6 +3560,12 @@ spec:
   rules:
   - from:
     - source:
+        namespaces:
+        - istio-system
+        - kubeflow
+        - kubeflow-user-example
+  - from:
+    - source:
         principals:
         - cluster.local/ns/kubeflow/sa/ml-pipeline
         - cluster.local/ns/kubeflow/sa/ml-pipeline-ui
