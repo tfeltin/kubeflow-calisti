@@ -2062,7 +2062,7 @@ metadata:
   namespace: kubeflow
 stringData:
   accesskey: minio
-  secretkey: minio123
+  secretkey: Min1o123!
 ---
 apiVersion: v1
 kind: Secret

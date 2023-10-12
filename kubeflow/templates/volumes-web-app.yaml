@@ -205,6 +205,8 @@ spec:
         name: volumes-web-app
         ports:
         - containerPort: 5000
+        securityContext:
+          allowPrivilegeEscalation: false
       serviceAccountName: volumes-web-app-service-account
 ---
 apiVersion: networking.istio.io/v1alpha3
